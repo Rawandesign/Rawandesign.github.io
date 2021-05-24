@@ -1,4 +1,4 @@
 # Rawandesign
 
-Web: www.rawandesign.ga<br>
-Blog: blog.rawandesign.ga
+Web: https://www.rawandesign.ga<br>
+Blog: https://blog.rawandesign.ga

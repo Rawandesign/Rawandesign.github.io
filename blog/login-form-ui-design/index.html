@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login Form Ui design </title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-container">
+            <div class="form-head">Einloggen</div>
+            <div class="form-body">
+                <form action="return false">
+                    <div class="field">
+                        <label class="hidden-label" for="username-input">Name</label>
+                        <div class="input-field">
+                            <input type="text" id="username-input" placeholder="Name">
+                            <div class="field-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><title>email-84</title><g stroke-width="1" fill="#111111" stroke="#111111"><g><path fill="none" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M14.5 14.5h-13a1 1 0 0 1-1-1v-11a1 1 0 0 1 1-1h13a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1z"></path><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M2.5 4.5L8 9l5.5-4.5"></path></g></g></svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="hidden-label" for="password-input">Password</label>
+                        <div class="input-field">
+                            <input type="password" id="password-input" placeholder="Password">
+                            <div class="field-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><title>lock-open</title><g stroke-width="1" fill="#111111" stroke="#111111"><path fill="none" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M13.5,15.5h-11
+                                    c-0.552,0-1-0.448-1-1v-7c0-0.552,0.448-1,1-1h11c0.552,0,1,0.448,1,1v7C14.5,15.052,14.052,15.5,13.5,15.5z"></path>
+                                <path fill="none" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M4.5,6.5V4
+                                    c0-1.933,1.567-3.5,3.5-3.5h0c1.586,0,2.925,1.054,3.355,2.5"></path>
+                                <circle fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="8" cy="11" r="1.5"></circle></g></svg>
+                            </div>
+                        </div>    
+                    </div>
+
+                    <div class="field action-field">
+                        <button id="login-btn">einloggen</button>
+                    </div>
+
+                    <!-- Alternate option -->
+                    <label class="alt-option-label">یان</label>
+                    <div class="alt-login-methods-container">
+                        <div class="login-method">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path fill="#fbbb00" d="M113 309l-17 67-65 1a255 255 0 01-2-239l58 11 25 58a152 152 0 001 102z"/>
+                                <path fill="#518ef8" d="M508 208a256 256 0 01-92 248l-73-4-10-65c30-17 53-45 66-78H262V208h246z"/>
+                                <path fill="#28b446" d="M416 456a255 255 0 01-385-79l82-68a152 152 0 00220 78l83 69z"/>
+                                <path fill="#f14336" d="M419 59l-83 68a152 152 0 00-224 80l-83-69a256 256 0 01390-79z"/>
+                            </svg>
+                        </div>
+                        <div class="login-method">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 439 439">
+                                <path fill="#111" d="M409 115a218 218 0 00-300-80 218 218 0 00-67 319c28 38 64 64 108 79 5 1 9 0 11-2 3-3 4-5 4-9v-15a2550 2550 0 010-26l-7 2-16 1-20-2c-6-2-13-5-19-9-6-5-10-10-12-18l-3-6-9-15c-4-5-8-9-12-11l-2-1a21 21 0 01-7-7c0-2 0-3 2-4l8-1 6 1 14 7c5 4 10 8 14 15s9 13 15 17c7 4 13 7 19 7l16-2 13-4c2-13 7-23 14-30-11-1-20-2-29-5-9-2-18-6-27-11a77 77 0 01-38-49c-4-12-6-27-6-43 0-23 8-42 23-59-7-17-6-36 2-58 5-2 14 0 24 4a172 172 0 0136 19 202 202 0 01110 0l11-7c7-5 16-9 26-13s18-5 23-3c9 22 10 41 3 58 15 17 22 36 22 59 0 16-2 31-6 43-4 13-9 23-15 30-6 8-14 14-23 19s-18 9-27 11c-8 3-18 4-29 5 10 9 15 22 15 41v60c0 4 1 6 3 9 3 2 7 3 12 2 44-15 80-41 108-79 28-39 42-82 42-129 0-40-10-77-30-110z"/>
+                            </svg>
+                        </div>
+                        <div class="login-method">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 112">
+                                <circle cx="56.1" cy="56.1" r="56.1" fill="#3B5998"/>
+                                <path fill="#FFF" d="M70 58H60v37H45V58h-7V45h7v-8c0-6 3-15 15-15h12v12h-9c-1 0-3 1-3 4v7h12l-2 13z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

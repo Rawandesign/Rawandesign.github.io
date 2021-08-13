@@ -1,1 +1,13 @@
 
+@font-face {
+        font-family: "Rabar_031";
+        src: url("https://docs.rawand.ga/src/font/Rabar_031.eot"); /* IE9 Compat Modes */
+        src: url("https://docs.rawand.ga/src/font/Rabar_031.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+            url("https://docs.rawand.ga/src/font/Rabar_031.ttf") format("truetype"), /* Safari, Android, iOS */
+            url("https://docs.rawand.ga/src/font/Rabar_031.woff") format("woff"); /* Modern Browsers */
+        font-weight: normal;
+        font-style: normal;
+        }
+
+
+font-family: 'Rabar_031';
